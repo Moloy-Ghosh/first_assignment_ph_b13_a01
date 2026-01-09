@@ -150,3 +150,45 @@
    line-height: 20px;
 }
 /* solution section design */
+#sol{
+   display:flex;
+   flex-direction:row;
+   justify-content:center;
+   align-items:center;
+   margin:60px 0;
+}
+#sol img{
+   width: 600px;
+   height: 600px;
+}
+#sol div{
+   margin:60px 30px;
+}
+#solution{
+   font-style: Medium;
+   font-size: 16px;
+   font-weight: 500;
+   color:rgba(70, 145, 101, 1);
+}
+#brain{
+   font-style: Bold;
+   font-size: 48px;
+   font-weight: 700;
+}
+#knd{
+   font-style: Bold;
+   font-size: 16px;
+   font-weight: 600;
+}
+#mark{
+   list-style-image: url("assets/CheckCircle.png");
+}
+#mark li{
+   font-size: 16px;
+   font-weight: 500;
+   
+}
+/* Think more clearly design started from here */
+#think{
+   background-color:rgba(98, 115, 130, 1);
+}
