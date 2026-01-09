@@ -32,3 +32,121 @@
    border:none;
    color:white;
 }
+#banner{
+   background-image:url("assets/hero-bg.png");
+   text-align:center;
+   height:534px;
+}
+#bdiv{
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: center;
+}
+#ea{
+   color:rgba(70, 145, 101, 1);
+   background-color:white;
+   display:inline;
+   padding:8px 12px;
+   border-radius:34px;
+}
+#bdiv h1{
+   font-size:72px;
+   font-weight:700;
+   letter-spacing: 0%;
+   text-align: center;
+   text-transform: capitalize;
+}
+#des{
+   color: rgba(255, 255, 255, 1);
+   font-size: 18px;
+   font-weight: 400;
+   line-height: 24px;
+   letter-spacing: 0%;
+   text-align: center;
+}
+#bdiv button img, #bdiv button i{
+   width:20px;
+   height:20px;
+}
+#banbtn{
+   display:flex;
+   flex-direction:row;
+   gap:16px;
+}
+#vbtn{
+   width:251px;
+   height:52px;
+   display:flex;
+   justify-content:center;
+   align-items:center;
+   color:rgba(255, 255, 255, 1);
+   background-color:#30B868;
+   border:none;
+   gap:10px;
+}
+#wbtn{
+   background:transparent;
+   border: 1px solid rgba(255, 255, 255, 1);
+   color:rgba(255, 255, 255, 1);
+   display:flex;
+   flex-direction:row;
+   justify-content:center;
+   align-items:center;
+   gap:10px;
+}
+#cdiv div img{
+   width: 32px;
+   height: 32px;
+   background-color: rgba(249, 85, 85, 1);
+   border-radius:50%;
+   padding:28px;
+}
+#card{
+   text-align:center;
+}
+#cardtext{
+   margin-top:60px;
+}
+#cardtext h1{
+   font-style: Bold;
+   font-size: 48px;
+   font-weight: 700;
+}
+#cardtext p{
+   font-size: 16px;
+   font-weight: 400;
+}
+#cdiv{
+   display:flex;
+   flex-direction:row;
+   justify-content:space-around;
+   gap:16px;
+   margin-top:60px;
+}
+#cdiv div{
+   width: 322px;
+   height: 300px;
+   padding:24px;
+   text-align:center;
+   display:flex;
+   flex-direction:column;
+   justify-content:center;
+   align-items:center;
+   border-radius: 8px;
+   box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.06);
+   background: rgba(255, 255, 255, 1);
+}
+.mt{
+   font-style: Semi Bold;
+   font-size: 24px;
+   font-weight: 600;
+   line-height: 29px;
+}
+.cdes{
+   font-style: Regular;
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 20px;
+}
+/* solution section design */
