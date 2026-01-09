@@ -227,3 +227,39 @@
    align-items:center;
    gap:10px;
 }
+/* Footer section design started from here */
+ 
+#ftr{
+   background-color:rgba(0, 25, 49, 1);
+   padding: 120px 120px 30px 120px;
+   color:white;
+   text-align:center;
+}
+#ftr hr{
+   margin-top:80px;
+}
+#ftr div img{
+   width: 139px;
+   height: 60px;
+}
+#ftrdiv{
+   display:flex;
+   flex-wrap:wrap;
+   flex-direction:row;
+   justify-content:space-between;
+   align-items:center;
+}
+#socialLink{
+   display:flex;
+   flex-direction:column;
+   justify-content:center;
+   align-items:center;
+}
+#socialLink div i{
+   background-color:rgba(255, 255, 255, 1);
+   color:black;
+   padding:2px;
+   border-radius:50%;
+   width: 20px;
+   height: 20px;
+}
