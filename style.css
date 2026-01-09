@@ -191,4 +191,11 @@
 /* Think more clearly design started from here */
 #think{
    background-color:rgba(98, 115, 130, 1);
+   height: 384px;
+   margin:120px;
+   text-align:center;
+   display:flex;
+   flex-direction:column;
+   justify-content:center;
+   align-items:center;
 }
